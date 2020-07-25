@@ -1,0 +1,12 @@
+<?php
+
+$test= "dance";
+echo ("$test");
+
+
+$p= "name";
+$name = "Suva";
+echo $$p;
+
+
+?>
