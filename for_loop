@@ -1,0 +1,25 @@
+<?php
+
+
+$array=array("pubg","COC","NFS","Counter-Strike");
+foreach ($array as $key => $value) {
+    echo "key: $key value : $value <br />";
+}
+
+
+/*
+for ($i=1; $i <=16 ; $i=$i+3) { 
+    echo ("$i<br />");
+} echo "<br />";
+*/
+
+/*
+for ($j=100; $j >=50 ; $j=$j-3) { 
+    echo ("$j<br />");
+}
+echo "<br />";   */
+
+
+
+
+?>
