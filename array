@@ -1,0 +1,33 @@
+<?php
+
+$MyArray =array ("cricket","football","hockey");
+print_r ($MyArray);
+
+echo "<br /><br />";
+
+$anotherArray[0]="biriyani";
+$anotherArray[1]="pizza";
+$anotherArray[2]="roll";
+print_r($anotherArray);
+
+echo "<br /><br />";
+
+$thirdArray =array (
+
+    "Delhi" => "Hindi",
+    "WB"    => "Bengali",
+    "Tamilnadu" => "Tamil",
+);
+print_r ($thirdArray);
+
+echo "<br /><br />"; echo "<br /><br />";
+
+$anotherArray[]="Samosa"; //add element in any array
+print_r($anotherArray);
+
+echo "<br /><br />"; echo "<br /><br />";
+
+unset ($thirdArray["WB"]); //remove element from array
+print_r ($thirdArray);
+
+?>
