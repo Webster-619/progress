@@ -1,0 +1,19 @@
+<?php
+$conn = mysqli_connect ("localhost", "root","");
+$db = mysqli_select_db($conn, "student");
+
+$sql = "UPDATE `user` SET `Fav Game` ='Vice City' WHERE `id`=6 LIMIT 1";
+
+mysqli_query($conn, $sql);
+
+// $sql = "SELECT * FROM `user` WHERE dept LIKE '%M%'"; -------> search
+
+$sql = "SELECT * FROM `user` WHERE `dept`='EE' AND `Fav Game`='fifa'";  // -----> Multiple search 
+
+$result = mysqli_query($conn, $sql);
+while ($row = mysqli_fetch_array($result)) {
+    
+print_r($row);
+}
+
+?>
